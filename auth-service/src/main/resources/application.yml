@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: authorization-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/webpos?characterEncoding=utf8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 9060
